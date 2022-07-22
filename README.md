@@ -1,1 +1,1 @@
-![WarzoneCMD](https://github.com/[kentrosewi]/[WarzoneCMD]/blob/[main]/warzoneCMD.png?raw=true)
+![WarzoneCMD](/warzoneCMD.png?raw=true "WarzoneCMD")
