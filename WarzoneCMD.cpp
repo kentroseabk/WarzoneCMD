@@ -80,9 +80,9 @@ Weapon smg{ "SMG", 0.4f };
 Weapon ar{ "AR", 0.7f };
 Weapon sniper{ "Sniper Rifle", 0.9f };
 
-constexpr unsigned short int weaponsSize = 3;
+constexpr unsigned short int weaponsSize = 4;
 
-Weapon weapons[weaponsSize]{ smg, ar, sniper };
+Weapon weapons[weaponsSize]{ pistol, smg, ar, sniper };
 
 Weapon currentWeapon = pistol;
 
@@ -267,7 +267,7 @@ Weapon SearchForLoot()
 {
     // player moves, 0 to inf
     int randomNumber = (rand() % 101) + (playerMoves * playerMovesLootFactor); // randomNumber in the range 0 to 100, with bonus for moving
-
+    
     // 0 - 30: nothing
     // 30 - 60: smg
     // 70 - 90: ar
