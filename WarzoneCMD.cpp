@@ -45,13 +45,6 @@ Location locations[locationsSize]{ airfield, resort, capitol, powerPlant, beachh
 constexpr unsigned short int locationActionSize = 3;
 string locationActions[locationActionSize]{ "Fight", "Loot", "Move" };
 
-// location actions: loot, move, fight (if there's an enemy)
-// weapons: pistol (default), smg, assualt rifle, each has higher chance of downing enemy
-// chance for better loot goes up as player moves
-// win cond? kill 5 players
-// combat? random, but enemies in late game have higher chance of killing you
-// gas moves into random location every x turns
-
 struct Weapon
 {
     string name;
